@@ -109,7 +109,7 @@ module.exports.news = async (req, res) => {
         const res1 = await axios.get("https://hutils.loxal.net/whois");
         console.log(res1.data)
         // console.log(res1)
-        const result = await axios.get(`https://newsapi.org/v2/top-headlines?country=${res1.data.countryIso.toLowerCase()}&apiKey=b10802b887d048889d1a7921151add3a`)
+        const result = await axios.get(`https://newsapi.org/v2/top-headlines?country=${res1.data.countryIso.toLowerCase()}&apiKey=${process.env.NEWS_API}`)
         console.log(result.data)
         return res.status(200).jsonp(result.data)
     } catch (err) {
