@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\tonys\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add jest -D
+
+PATH: 
+  C:\Users\tonys\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\tonys\bin;C:\Python310\Scripts;C:\Python310;C:\Program Files\Common Files\Oracle\Java\javapath;C:\mingw64\bin;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Java\jdk-18.0.2\bin;C:\Users\tonys\AppData\Local\Microsoft\WindowsApps;C:\Users\tonys\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\heroku\bin;C:\Program Files\nodejs;C:\Users\tonys\AppData\Roaming\npm;C:\Users\tonys\AppData\Local\GitHubDesktop\bin;C:\Python310\Scripts;C:\Python310;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\allMy\Projects\Authentication-with-redux\Backend\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.27.2",
+      "bcrypt": "^5.0.1",
+      "body-parser": "^1.20.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.2",
+      "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.6.1",
+      "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
